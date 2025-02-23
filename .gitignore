@@ -1,0 +1,69 @@
+venv/*
+# 📌 Escludi file di sistema
+.DS_Store
+Thumbs.db
+
+# 📌 Escludi i virtual environment di Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📌 Escludi le cartelle di configurazione di VS Code e Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# 📌 Escludi i modelli e i dataset pesanti (usa LFS se necessario)
+models/
+checkpoints/
+data/
+datasets/
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+*.joblib
+*.pkl
+*.ckpt
+*.pt
+*.pth
+*.weights
+
+# 📌 Escludi immagini, audio e video grandi
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mp3
+*.wav
+*.flac
+
+# 📌 Escludi file compressi
+*.zip
+*.tar.gz
+*.tar.xz
+*.7z
+
+# 📌 Escludi file di log e output temporanei
+logs/
+*.log
+*.out
+*.err
+nohup.out
+
+# 📌 Escludi file di output di Jupyter Notebook
+*.nbconvert.ipynb
+
+# 📌 Escludi file di testing temporanei
+tests/__pycache__/
+temp/
+tmp/
+
+# 📌 Escludi file di configurazione personali
+*.env
+.envrc
+secrets.toml
+secrets.yaml
